@@ -1,7 +1,7 @@
 {
   "name": "stream-censor",
   "version": "0.0.0",
-  "description": "Censor values in stream A from stream B.",
+  "description": "Censor values in stream passed from streams piped.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -20,5 +20,16 @@
     "chai": "^2.1.2",
     "event-stream": "^3.3.0",
     "wordstream": "0.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zuren/node-stream-censor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zuren/node-stream-censor/issues"
+  },
+  "homepage": "https://github.com/zuren/node-stream-censor"
 }
