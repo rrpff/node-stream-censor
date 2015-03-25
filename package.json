@@ -1,7 +1,7 @@
 {
   "name": "stream-censor",
   "version": "0.0.0",
-  "description": "Censor values in stream passed from streams piped.",
+  "description": "Remove values in stream passed from streams piped.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
