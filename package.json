@@ -1,0 +1,24 @@
+{
+  "name": "stream-censor",
+  "version": "0.0.0",
+  "description": "Censor values in stream A from stream B.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "censor",
+    "filter",
+    "stream"
+  ],
+  "author": "Richard Foster <richard@rpf.me> (http://rpf.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "through": "^2.3.6"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "event-stream": "^3.3.0",
+    "wordstream": "0.0.1"
+  }
+}
